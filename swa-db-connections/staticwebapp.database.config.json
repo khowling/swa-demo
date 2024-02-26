@@ -27,5 +27,15 @@
       "mode": "production"
     }
   },
-  "entities": {}
+  "entities": {
+   "Department": {
+      "source": "humanresources.department",
+      "permissions": [
+        {
+          "actions": ["*"],
+          "role": "anonymous"
+        }
+      ]
+    }
+  }
 }
